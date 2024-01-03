@@ -135,15 +135,18 @@ export default function Home() {
               ImagePath={'/img/projects/dashboard.gif'}
               title={'Production-Dashboard'}
               description={'Utilizando o Node.js com o Express.js, esta API busca dados de forma assíncrona do servidor e atualiza com informações em tempo real do banco de dados.'}
-              projectLink={'https://github.com/ecmedeiros'}
+              projectLink={'https://github.com/ecmedeiros/production-planning-system'}
               projectView={'github'}
+              usedTechs={['nodejs','html', 'js', 'bootstrap']}
             />
             <ProjectBox
               ImagePath={'/img/projects/tiny.png'}
               title={'Quality-Control-System'}
               description={'O TINY ERP é uma plataforma de gestão empresarial, esta API desenvolvida em Node.js facilita o processo de criação de etiquetas no TINY ERP.'}
-              projectLink={'https://github.com/ecmedeiros'}
+              projectLink={'https://github.com/ecmedeiros/postTradeToTiny'}
               projectView={'github'}
+              usedTechs={['nodejs', 'postgresql']}
+
             />
           </div>
 
@@ -153,15 +156,19 @@ export default function Home() {
               ImagePath={'/img/projects/revisao.gif'}
               title={'Quality-Control-System'}
               description={'Solução para controle de qualidade para revisão de cabedais. Examine, registre modelos e defeitos com eficiência, obtenha relatórios detalhados.'}
-              projectLink={'https://github.com/ecmedeiros'}
+              projectLink={'https://github.com/ecmedeiros/quality-control-system'}
               projectView={'github'}
+              usedTechs={['html', 'js', 'css', 'postgresql']}
+
             />
             <ProjectBox
               ImagePath={'/img/projects/portfolio.png'}
               title={'Portfolio'}
               description={'Meu portfólio é demonstração das habilidades que venho adquirindo. Utilizando Next.js, o portfólio é responsivo e oferece uma experiência em dispositivos móveis.'}
-              projectLink={'https://github.com/ecmedeiros'}
+              projectLink={'https://github.com/ecmedeiros/Portfolio'}
               projectView={'github'}
+              usedTechs={['nextjs_', 'nodejs', 'html', 'js', 'css']}
+
             />
           </div>
         </div>
