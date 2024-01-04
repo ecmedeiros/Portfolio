@@ -5,7 +5,7 @@ export default function DatabaseComponent() {
         <>
             <div>
                 <Image
-                    src={"/img/techIcons/sql.png"}
+                    src={"./public/img/techIcons/sql.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -13,7 +13,7 @@ export default function DatabaseComponent() {
             </div>
             <div>
                 <Image
-                    src={"/img/techIcons/postgresql.png"}
+                    src={"./public/img/techIcons/postgresql.png"}
                     width={64}
                     height={64}
                     alt="download"
