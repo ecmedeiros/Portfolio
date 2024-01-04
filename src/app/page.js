@@ -64,7 +64,7 @@ export default function Home() {
             target='_blank'>
 
             <Image
-              src="/img/drawIcons/linkedin.png"
+              src="./img/drawIcons/linkedin.png"
               width={32}
               height={32}
               alt="linkedin"
@@ -75,7 +75,7 @@ export default function Home() {
             target='_blank'
           >
             <Image
-              src="/img/drawIcons/github.png"
+              src="./img/drawIcons/github.png"
               width={32}
               height={32}
               alt="linkedin"
@@ -84,7 +84,7 @@ export default function Home() {
 
           <a href="mailto:elias.demedeiros@hotmail.com">
             <Image
-              src="/img/drawIcons/mail.png"
+              src="./img/drawIcons/mail.png"
               width={32}
               height={32}
               alt="mail"
@@ -105,14 +105,14 @@ export default function Home() {
             <p>Baixar Curriculo</p>
             {isHovered ? (
               <Image
-                src={"/img/drawIcons/download_black.png"}
+                src={"./img/drawIcons/download_black.png"}
                 width={32}
                 height={32}
                 alt="download"
               />
             ) : (
               <Image
-                src={"/img/drawIcons/download_white.png"}
+                src={"./img/drawIcons/download_white.png"}
                 width={32}
                 height={32}
                 alt="download"
@@ -132,7 +132,7 @@ export default function Home() {
 
           <Image
             style={{ borderRadius: '20vh' }}
-            src={"/img/profile.jpeg"}
+            src={"./img/profile.jpeg"}
             width={250}
             height={250}
             alt="asda"
@@ -156,7 +156,7 @@ export default function Home() {
 
           <div>
             <ProjectBox
-              ImagePath={'/img/projects/dashboard.gif'}
+              ImagePath={'./img/projects/dashboard.gif'}
               title={'Production-Dashboard'}
               description={'Utilizando o Node.js com o Express.js, esta API busca dados de forma assíncrona do servidor e atualiza com informações em tempo real do banco de dados.'}
               projectLink={'https://github.com/ecmedeiros/production-planning-system'}
@@ -164,7 +164,7 @@ export default function Home() {
               usedTechs={['nodejs', 'html', 'js', 'bootstrap']}
             />
             <ProjectBox
-              ImagePath={'/img/projects/tiny.png'}
+              ImagePath={'./img/projects/tiny.png'}
               title={'Quality-Control-System'}
               description={'O TINY ERP é uma plataforma de gestão empresarial, esta API desenvolvida em Node.js facilita o processo de criação de etiquetas no TINY ERP.'}
               projectLink={'https://github.com/ecmedeiros/postTradeToTiny'}
@@ -177,7 +177,7 @@ export default function Home() {
           <div>
 
             <ProjectBox
-              ImagePath={'/img/projects/revisao.gif'}
+              ImagePath={'./img/projects/revisao.gif'}
               title={'Quality-Control-System'}
               description={'Solução para controle de qualidade para revisão de cabedais. Examine, registre modelos e defeitos com eficiência, obtenha relatórios detalhados.'}
               projectLink={'https://github.com/ecmedeiros/quality-control-system'}
@@ -186,7 +186,7 @@ export default function Home() {
 
             />
             <ProjectBox
-              ImagePath={'/img/projects/portfolio.png'}
+              ImagePath={'./img/projects/portfolio.png'}
               title={'Portfolio'}
               description={'Meu portfólio é demonstração das habilidades que venho adquirindo. Utilizando Next.js, o portfólio é responsivo e oferece uma experiência em dispositivos móveis.'}
               projectLink={'https://github.com/ecmedeiros/Portfolio'}
