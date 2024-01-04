@@ -5,7 +5,7 @@ export default function BackEndComponent() {
         <>
             <div>
                 <Image
-                    src={"/img/techIcons/nodejs.png"}
+                    src={"./public/img/techIcons/nodejs.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -13,7 +13,7 @@ export default function BackEndComponent() {
             </div>
             <div>
                 <Image
-                    src={"/img/techIcons/python.png"}
+                    src={"./public/img/techIcons/python.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -21,7 +21,7 @@ export default function BackEndComponent() {
             </div>
             <div>
                 <Image
-                    src={"/img/techIcons/express.png"}
+                    src={"./public/img/techIcons/express.png"}
                     width={64}
                     height={64}
                     alt="download"
