@@ -22,7 +22,7 @@ export function ProjectBox({ ImagePath, title, description, projectLink, project
                     <div>
                         <a href={projectLink} target='_blank'>
                             <Image
-                                src={".public/img/drawIcons/github.png"}
+                                src={"/img/drawIcons/github.png"}
                                 width={32}
                                 height={32}
                                 alt="download"
@@ -48,7 +48,7 @@ export function ProjectBox({ ImagePath, title, description, projectLink, project
                 {usedTechs.map((tech, index) => (
                     <div key={index}>
                         <Image
-                            src={`.public/img/techIcons/${tech}.png`}
+                            src={`/img/techIcons/${tech}.png`}
                             width={32}
                             height={32}
                             alt={tech}
