@@ -5,7 +5,7 @@ export default function FrontEndComponent() {
         <>
             <div>
                 <Image
-                    src={"/img/techIcons/html.png"}
+                    src={"./img/techIcons/html.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -14,7 +14,7 @@ export default function FrontEndComponent() {
 
             <div>
                 <Image
-                    src={"/img/techIcons/css.png"}
+                    src={"./img/techIcons/css.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -23,7 +23,7 @@ export default function FrontEndComponent() {
 
             <div>
                 <Image
-                    src={"/img/techIcons/react.png"}
+                    src={"./img/techIcons/react.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -32,7 +32,7 @@ export default function FrontEndComponent() {
 
             <div>
                 <Image
-                    src={"/img/techIcons/nextjs_.png"}
+                    src={"./img/techIcons/nextjs_.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -41,7 +41,7 @@ export default function FrontEndComponent() {
 
             <div>
                 <Image
-                    src={"/img/techIcons/bootstrap.png"}
+                    src={"./img/techIcons/bootstrap.png"}
                     width={64}
                     height={64}
                     alt="download"

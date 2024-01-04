@@ -5,7 +5,7 @@ export default function HostingComponent() {
         <>
             <div>
                 <Image
-                    src={"/img/techIcons/aws.png"}
+                    src={"./img/techIcons/aws.png"}
                     width={64}
                     height={64}
                     alt="download"
