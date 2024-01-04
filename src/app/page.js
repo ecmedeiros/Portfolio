@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import styles from './page.module.css'
 import Link from 'next/link'
 import NavBar from './components/NavBar'
@@ -12,6 +12,30 @@ import { Footer } from './components/Footer'
 export default function Home() {
   const [isHovered, setIsHovered] = useState(false);
 
+  useEffect(() => {
+    const handleSmoothScroll = (e) => {
+      e.preventDefault();
+
+      const targetId = e.target.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener('click', handleSmoothScroll);
+    });
+
+    // Cleanup event listeners when the component unmounts
+    return () => {
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.removeEventListener('click', handleSmoothScroll);
+      });
+    };
+  }, []); // Run the effect only once when the component mounts
+
   return (
     <>
       <NavBar />
@@ -19,7 +43,7 @@ export default function Home() {
       <ParticlesBackground className={styles.particles} />
 
 
-      <div className={styles.main} style={{ position: 'relative', zIndex: 1 }}>
+      <div id="home" className={styles.main} style={{ position: 'relative', zIndex: 1 }}>
 
 
         <div className={styles.nameTitle} >
@@ -100,7 +124,7 @@ export default function Home() {
 
       </div>
 
-      <div className={styles.aboutMe} style={{ position: 'relative', zIndex: 1 }}>
+      <div id="aboutMe" className={styles.aboutMe} style={{ position: 'relative', zIndex: 1 }}>
         <h2>
           Sobre Mim &lt;/&gt;
         </h2>
@@ -123,7 +147,7 @@ export default function Home() {
 
       </div>
 
-      <div className={styles.projects}>
+      <div id='projects' className={styles.projects}>
         <h2>
           Projetos
         </h2>
@@ -137,7 +161,7 @@ export default function Home() {
               description={'Utilizando o Node.js com o Express.js, esta API busca dados de forma assíncrona do servidor e atualiza com informações em tempo real do banco de dados.'}
               projectLink={'https://github.com/ecmedeiros/production-planning-system'}
               projectView={'github'}
-              usedTechs={['nodejs','html', 'js', 'bootstrap']}
+              usedTechs={['nodejs', 'html', 'js', 'bootstrap']}
             />
             <ProjectBox
               ImagePath={'/img/projects/tiny.png'}

@@ -54,7 +54,7 @@ export function Footer() {
                 Entre em contato comigo
             </p>
 
-            <div className={styles.footerDesc}>
+            <div id='footer' className={styles.footerDesc}>
                 <p>
                     No email <strong className={styles.email}>elias.demedeiros@hotmail.com</strong>
                 </p>

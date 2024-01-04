@@ -26,18 +26,26 @@ export default function NavBar() {
   return (
     <main className={`${styles.navBar} ${isScrolled ? styles.scrolled : ''}`}>
       <ul>
-        <li>
-          <Link href={'/'}>Inicio</Link>
-        </li>
-        <li>
-          <Link href={'/'}>Sobre Mim</Link>
-        </li>
-        <li>
-          <Link href={'/'}>Projetos</Link>
-        </li>
-        <li>
-          <Link href={'/'}>Contato</Link>
-        </li>
+        <Link href={'#home'}>
+          <li>
+            Inicio
+          </li>
+        </Link>
+        <Link href={'#aboutMe'}>
+          <li>
+            Sobre Mim
+          </li>
+        </Link>
+        <Link href={'#projects'}>
+          <li>
+            Projetos
+          </li>
+        </Link>
+        <Link href={'#footer'}>
+          <li>
+            Contato
+          </li>
+        </Link>
       </ul>
     </main>
   );
