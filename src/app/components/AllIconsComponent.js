@@ -6,7 +6,7 @@ export default function AllIconsComponent() {
 
             <div>
                 <Image
-                    src={"/img/techIcons/html.png"}
+                    src={"./img/techIcons/html.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -15,7 +15,7 @@ export default function AllIconsComponent() {
 
             <div>
                 <Image
-                    src={"/img/techIcons/css.png"}
+                    src={"./img/techIcons/css.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -24,7 +24,7 @@ export default function AllIconsComponent() {
 
             <div>
                 <Image
-                    src={"/img/techIcons/react.png"}
+                    src={"./img/techIcons/react.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -33,7 +33,7 @@ export default function AllIconsComponent() {
 
             <div>
                 <Image
-                    src={"/img/techIcons/nextjs_.png"}
+                    src={"./img/techIcons/nextjs_.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -42,7 +42,7 @@ export default function AllIconsComponent() {
 
             <div>
                 <Image
-                    src={"/img/techIcons/bootstrap.png"}
+                    src={"./img/techIcons/bootstrap.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -51,7 +51,7 @@ export default function AllIconsComponent() {
 
             <div>
                 <Image
-                    src={"/img/techIcons/nodejs.png"}
+                    src={"./img/techIcons/nodejs.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -59,7 +59,7 @@ export default function AllIconsComponent() {
             </div>
             <div>
                 <Image
-                    src={"/img/techIcons/python.png"}
+                    src={"./img/techIcons/python.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -67,7 +67,7 @@ export default function AllIconsComponent() {
             </div>
             <div>
                 <Image
-                    src={"/img/techIcons/express.png"}
+                    src={"./img/techIcons/express.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -76,7 +76,7 @@ export default function AllIconsComponent() {
 
             <div>
                 <Image
-                    src={"/img/techIcons/sql.png"}
+                    src={"./img/techIcons/sql.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -84,7 +84,7 @@ export default function AllIconsComponent() {
             </div>
             <div>
                 <Image
-                    src={"/img/techIcons/postgresql.png"}
+                    src={"./img/techIcons/postgresql.png"}
                     width={64}
                     height={64}
                     alt="download"
@@ -92,7 +92,7 @@ export default function AllIconsComponent() {
             </div>
             <div>
                 <Image
-                    src={"/img/techIcons/aws.png"}
+                    src={"./img/techIcons/aws.png"}
                     width={64}
                     height={64}
                     alt="download"
