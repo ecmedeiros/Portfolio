@@ -112,7 +112,7 @@ export default function Home() {
               />
             ) : (
               <Image
-                src={"./img/drawIcons/duck.gif"}
+                src={"./img/drawIcons/download_white.png"}
                 width={32}
                 height={32}
                 alt="download"
