@@ -9,13 +9,17 @@ export function ProjectBox({ ImagePath, title, description, projectLink, project
         <div
             className={styles.projectBox}
         >
-            <Image
+            <div
                 className={styles.projectImage}
-                src={ImagePath}
-                width={400}
-                height={200}
-                alt="asda"
-            />
+            >
+                <Image
+                    src={ImagePath}
+                    width={300}
+                    height={250}
+                    layout="responsive"
+                    alt="asda"
+                />
+            </div>
             <div className={styles.headerProjects}>
                 <h3>{title}</h3>
                 <div className={styles.projectLinks}>
