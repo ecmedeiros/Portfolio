@@ -33,7 +33,7 @@
   flex-direction: row;
 }
 
-.navBar li {
+.navBar a {
   display: flex;
   transition: .3s;
 
@@ -43,12 +43,9 @@
 
 }
 
-.navBar li:hover {
+.navBar a:hover {
   display: flex;
 
-  /* justify-content: space-between; */
-  padding: 5vh;
-  padding-bottom: 0;
   border-radius: 2vh;
   cursor: pointer;
 
@@ -352,17 +349,20 @@
 
 .footerDesc p {
   margin: 2vh;
+  font-size: 2vh;
 }
 
+
 .footerTitle {
-  font-size: 4vh !important;
-  font-weight: bold !important;
+  font-size: 4vh;
+  font-weight: bold;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   width: 100vh;
+  font-size: 2.5vh;
 }
 
 .form label {
@@ -379,7 +379,7 @@
   background-color: #fff;
   opacity: 1;
 
-  font-size: 2.5vh;
+  font-size: 2dvh;
   height: 6vh;
   border-radius: 1vh;
   padding: 1vh;
@@ -391,7 +391,7 @@
   outline: none;
   border: 1px solid black;
 
-  font-size: 2.5vh;
+  font-size: 2dvh;
   background-color: #fff;
   padding: 1vh;
   height: 20vh;
