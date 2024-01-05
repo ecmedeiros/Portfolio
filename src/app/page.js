@@ -71,14 +71,14 @@ export default function Home() {
             />
           </Link>
 
-          <Link href={'https://github.com/ecmedeiros/Portfolio'}
+          <Link href={'https://github.com/ecmedeiros/'}
             target='_blank'
           >
             <Image
               src="./img/drawIcons/github.png"
               width={32}
               height={32}
-              alt="linkedin"
+              alt="github"
             />
           </Link>
 
@@ -112,7 +112,7 @@ export default function Home() {
               />
             ) : (
               <Image
-                src={"./img/drawIcons/download_white.png"}
+                src={"./img/drawIcons/duck.gif"}
                 width={32}
                 height={32}
                 alt="download"
